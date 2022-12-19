@@ -1,0 +1,1 @@
+{"options": [{"long_name": "foo", "has_arg": "REQUIRED_ARGUMENT"},{"long_name": "bar", "has_arg": "OPTIONAL_ARGUMENT"}], "help": true}
