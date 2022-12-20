@@ -5,3 +5,4 @@ DESTDIR = /usr/local
 install: $(OPTIONSH_NAME)
 	mkdir -p $(DESTDIR)/bin
 	cp $(OPTIONSH_NAME) $(DESTDIR)/bin/$(INSTALL_NAME)
+	chmod a+x $(DESTDIR)/bin/$(INSTALL_NAME)
