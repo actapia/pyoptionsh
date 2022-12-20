@@ -1,10 +1,10 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 import json
 import argparse
 import sys
 import functools
 
-from IPython import embed
+#from IPython import embed
 
 from gettext import gettext as _, ngettext
 
@@ -82,7 +82,7 @@ def main():
     parser = specs_to_args(json.load(sys.stdin))
     args = parser.parse_args()
     for arg, value in args.__dict__.items():
-        print(f"{arg}:{value}")
+        print("{}:{}".format(arg, value))
         
 if __name__ == "__main__":
     main()
